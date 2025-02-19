@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+  }
+  /* sheared styles */
+ .display{
+    display: flex; 
+   }
+   /* coler part */
+ .text-gray{
+    color: #424242;
+ }
+ .color-1{
+   background-color: rgba(255, 144, 14, 0.1);
+ }
+
+
+
+  /* header style */
+  /* navber related style */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+ .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-link{
+   text-decoration: none;
+   font-weight: 500;
+   }
+   .h1{
+      text-align: center;
+      
+   }
