@@ -23,21 +23,52 @@
 
   /* header style */
   /* navber related style */
+
   .navbar{
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
-  }
- .nav-item{
+    }
+  .brand{
+    font-weight: 700;
+    font-size: 3rem;
+    }
+  .nav-item{
     list-style: none;
     margin-right: 30px;
-  }
+     }
   .nav-link{
-   text-decoration: none;
-   font-weight: 500;
-   }
-   .h1{
+    text-decoration: none;
+    font-weight: 500;
+    }
+  .banner{
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+  .banner-cont{
+      max-width: 850px;
+      margin: 0 auto;
       text-align: center;
-      
+      margin-bottom: 50px;
+    }
+  .banner-title{
+       font-weight: 700;
+        font-size: 4rem;
+        } 
+   .banner-text{
+         font-weight: 300;
+         font-size: smaller;
+          }
+   .btn{
+     background-color: rgba(255, 144, 14, 1);
+     color: white;
+     font-size: 1rem;
+     width: 130px; 
+     height: 34px;
+     border-radius: 8px;
+     border: none;
+   }
+   .banner-img{
+      width: 100%;
    }
