@@ -72,3 +72,12 @@
    .banner-img{
       width: 100%;
    }
+   /* team and feature   */
+   .team{
+      align-items: center;
+   }
+   .team-img-cont{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 24px;
+   }
